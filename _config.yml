@@ -1,5 +1,5 @@
 title: This Might Be A Stretch
 email: sammcvicker@protonmail.com
-baseurl: ""
+baseurl: "/this-might-be-a-stretch"
 exclude: ['README.md']
 markdown: kramdown

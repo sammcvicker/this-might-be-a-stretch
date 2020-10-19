@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "main.css",
+	"sources": [
+		"main.scss",
+		"_sass/main-page.scss"
+	],
+	"sourcesContent": [
+		"@import 'main-page';",
+		"main {\n    p {\n        color: red;\n    }\n}\n\np.special {\n    color: blue;\n}\n\n.my-class-p {\n    display: block;\n    background: green;\n}"
+	],
+	"names": [],
+	"mappings": "ACAA,AACI,IADA,CACA,CAAC,CAAC,EACE,KAAK,EAAE,GAAG,GACb;;AAGL,AAAA,CAAC,AAAA,QAAQ,CAAC,EACN,KAAK,EAAE,IAAI,GACd;;AAED,AAAA,WAAW,CAAC,EACR,OAAO,EAAE,KAAK,EACd,UAAU,EAAE,KAAK,GACpB"
+}

@@ -2,4 +2,5 @@ title: This Might Be A Stretch
 email: sammcvicker@protonmail.com
 exclude: ['README.md']
 markdown: kramdown
+baseurl: "/this-might-be-a-stretch"
 destination: 'docs/'

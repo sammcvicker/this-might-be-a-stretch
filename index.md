@@ -14,4 +14,4 @@ Special
 ### h3
 :)
 </div>
-[Link to index](/project)
+[Link to index]({{ site.baseurl }}/project)

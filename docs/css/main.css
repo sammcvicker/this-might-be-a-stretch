@@ -1,7 +1,23 @@
-main p { color: red; }
+body { padding: 0; margin: 0; }
 
-p.special { color: blue; }
+#header-div { padding: 0; margin: 0; padding-top: 20px; background-image: url("../images/Banner.jpg"); }
 
-.my-class-p { display: block; background: green; }
+#header-div h1 { color: white; padding: 0; margin: 0; margin-left: 30px; margin-bottom: 160px; margin-top: 20px; font-family: "Articulat Heavy"; font-weight: 100; font-size: 90px; letter-spacing: -0.04em; cursor: pointer; }
+
+#header-div h2 { color: white; padding: 0; margin: 0; margin-right: 40px; margin-bottom: 15px; display: inline-block; font-family: "Articulat Demi-Bold"; font-weight: 500; font-size: 35px; letter-spacing: -0.04em; cursor: pointer; }
+
+#header-div h2:hover { color: #cb1f1f; transition: 100ms; }
+
+#header-div h1:hover { color: #cb1f1f; transition: 100ms; }
+
+#header-div div { text-align: right; }
+
+@font-face { font-family: "Articulat Heavy"; src: url("ArticulatCF-Heavy.eot"); /* IE9 Compat Modes */ src: url("ArticulatCF-Heavy.eot?#iefix") format("embedded-opentype"), url("ArticulatCF-Heavy.woff") format("woff"); /* Modern Browsers */ }
+
+@font-face { font-family: "Articulat Bold"; src: url("ArticulatCF-Bold.eot"); /* IE9 Compat Modes */ src: url("ArticulatCF-Bold.eot?#iefix") format("embedded-opentype"), url("ArticulatCF-Bold.woff") format("woff"); /* Modern Browsers */ }
+
+@font-face { font-family: "Articulat Demi-Bold"; src: url("ArticulatCF-DemiBold.eot"); /* IE9 Compat Modes */ src: url("ArticulatCF-DemiBold.eot?#iefix") format("embedded-opentype"), url("ArticulatCF-DemiBold.woff") format("woff"); /* Modern Browsers */ }
+
+@font-face { font-family: "Articulat Medium"; src: url("ArticulatCF-Medium.eot"); /* IE9 Compat Modes */ src: url("ArticulatCF-Medium.eot?#iefix") format("embedded-opentype"), url("ArticulatCF-Medium.woff") format("woff"); /* Modern Browsers */ }
 
 /*# sourceMappingURL=main.css.map */

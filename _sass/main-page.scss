@@ -1,14 +1,54 @@
-main {
-    p {
-        color: red;
-    }
+body {
+  padding: 0;
+  margin: 0;
 }
 
-p.special {
-    color: blue;
-}
+#header-div {
+  padding: 0;
+  margin: 0;
+  padding-top: 20px;
+  background-image: url("../images/Banner.jpg");
 
-.my-class-p {
-    display: block;
-    background: green;
+  h1 {
+    color: white;
+
+    padding: 0;
+    margin: 0;
+    margin-left: 30px;
+    margin-bottom: 160px;
+    margin-top: 20px;
+    font-family: "Articulat Heavy";
+    font-weight: 100;
+    font-size: 90px;
+    letter-spacing: -0.04em;
+    cursor: pointer;
+  }
+  h2 {
+    color: white;
+
+    padding: 0;
+    margin: 0;
+    margin-right: 40px;
+    margin-bottom: 15px;
+    display: inline-block;
+    font-family: "Articulat Demi-Bold";
+    font-weight: 500;
+    font-size: 35px;
+    letter-spacing: -0.04em;
+    cursor: pointer;
+  }
+
+  h2:hover {
+    color: #cb1f1f;
+    transition: 100ms;
+  }
+
+  h1:hover {
+    color: #cb1f1f;
+    transition: 100ms;
+  }
+
+  div {
+    text-align: right;
+  }
 }

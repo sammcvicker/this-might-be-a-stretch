@@ -1,3 +1,32 @@
 ---
 ---
-@import 'main-page';
+
+@import "main-page";
+
+@font-face {
+  font-family: "Articulat Heavy";
+  src: url("ArticulatCF-Heavy.eot"); /* IE9 Compat Modes */
+  src: url("ArticulatCF-Heavy.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("ArticulatCF-Heavy.woff") format("woff"); /* Modern Browsers */
+}
+
+@font-face {
+  font-family: "Articulat Bold";
+  src: url("ArticulatCF-Bold.eot"); /* IE9 Compat Modes */
+  src: url("ArticulatCF-Bold.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("ArticulatCF-Bold.woff") format("woff"); /* Modern Browsers */
+}
+
+@font-face {
+  font-family: "Articulat Demi-Bold";
+  src: url("ArticulatCF-DemiBold.eot"); /* IE9 Compat Modes */
+  src: url("ArticulatCF-DemiBold.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("ArticulatCF-DemiBold.woff") format("woff"); /* Modern Browsers */
+}
+
+@font-face {
+  font-family: "Articulat Medium";
+  src: url("ArticulatCF-Medium.eot"); /* IE9 Compat Modes */
+  src: url("ArticulatCF-Medium.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("ArticulatCF-Medium.woff") format("woff"); /* Modern Browsers */
+}
